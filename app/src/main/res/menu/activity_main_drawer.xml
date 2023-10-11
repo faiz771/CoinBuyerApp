@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Group is used to group all these items together -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homenew"
+            android:menuCategory="secondary"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/loginnew"
+            android:menuCategory="secondary"
+            android:title="Login/Sign up" />
+        <item
+            android:id="@+id/old_coins"
+            android:icon="@drawable/coinsnew"
+            android:menuCategory="secondary"
+            android:title="Old coins" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/notesnew"
+            android:menuCategory="secondary"
+            android:title="Old bank Notes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/sellnew"
+            android:menuCategory="secondary"
+            android:title="Sell old coins and notes" />
+    </group>
+</menu>
